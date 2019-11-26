@@ -1,0 +1,59 @@
+{
+    "heartbeat": {
+        "beating": true
+    },
+    "activities": [
+        {
+            "id": 1,
+            "name": "31T",
+            "professor_id": 1,
+            "points": [
+                {
+                    "id": 1,
+                    "lat": "-23.646519", 
+                    "long": "-46.629278",
+                    "area_id": 1
+                },
+                {
+                    "id": 2,
+                    "lat": "-23.647138", 
+                    "long": "-46.629772",
+                    "area_id": 2
+                }
+            ]
+        }
+    ],
+    "areas": [
+        {
+            "id": 1,
+            "name": "Medicina"
+        },
+        {
+            "id": 2,
+            "name": "Direito"
+        },
+        {
+            "id": 3,
+            "name": "Engenharia"
+        }
+    ],
+    "students": [
+        {
+            "id": 1,
+            "name": "Goku",
+            "activity_id": 1,
+            "points": [
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Vegeta",
+            "activity_id": 1,
+            "points": [
+                1,
+                2
+            ]
+        }
+    ]
+}
